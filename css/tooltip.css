@@ -1,0 +1,141 @@
+.tipr_content
+{
+    font: 12px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fff; 
+    background-color: #222;
+    padding: 3px 10px;
+	border-radius: 4px;
+}
+.btn:hover .tipr_content,
+.btn:active .tipr_content,
+.btn:focus .tipr_content {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.tipr_container_bottom,
+.tipr_container_top,
+.tipr_container_left,
+.tipr_container_right {
+	position: absolute;
+	display: none;
+	z-index: 1000;
+}
+.tipr_container_bottom
+{
+    margin-top: 10px;
+}
+.tipr_container_top
+{
+}
+.tipr_container_left
+{
+	padding-right: 6px;
+}
+.tipr_container_right
+{
+	margin-left: 10px;
+}
+.tipr_point_top,
+.tipr_point_bottom,
+.tipr_point_left,
+.tipr_point_right  
+{
+    position: relative;
+	color: #fff;
+}
+.tipr_point_right:after,
+.tipr_point_right:before
+{
+	position: absolute;
+	pointer-events: none;
+	border: solid transparent;
+	top: 100%;
+	content: "";
+	height: 0;
+	width: 0;
+}
+.tipr_point_right:after
+{
+	border-right-color: #222;
+	border-width: 6px;
+	left: -8px;
+	top: 25%;
+	margin-left: -4px;
+}
+.tipr_point_right:before 
+{
+	border-width: 4px;
+	margin-left: -6px;
+}
+.tipr_point_left:after,
+.tipr_point_left:before
+{
+	position: absolute;
+	pointer-events: none;
+	border: solid transparent;
+	top: 100%;
+	content: "";
+	height: 0;
+	width: 0;
+}
+.tipr_point_left:after
+{
+	border-left-color: #222;
+	border-width: 6px;
+	right: -8px;
+	top: 25%;
+	margin-right: -4px;
+}
+.tipr_point_left:before 
+{
+	border-width: 4px;
+	margin-right: -6px;
+}
+.tipr_point_top:after,
+.tipr_point_top:before
+{
+	position: absolute;
+	pointer-events: none;
+	border: solid transparent;
+	top: 100%;
+	content: "";
+	height: 0;
+	width: 0;
+}
+.tipr_point_top:after
+{
+	border-top-color: #222;
+	border-width: 6px;
+	left: 50%;
+	margin-left: -6px;
+}
+.tipr_point_top:before 
+{
+	border-width: 4px;
+	left: 50%;
+	margin-left: -4px;
+}
+.tipr_point_bottom:after,
+.tipr_point_bottom:before
+{
+	position: absolute;
+	pointer-events: none;
+	border: solid transparent;
+	bottom: 100%;
+	content: "";
+	height: 0;
+	width: 0;
+}
+.tipr_point_bottom:after
+{
+	border-bottom-color: #222;
+	border-width: 6px;
+	left: 50%;
+	margin-left: -6px;
+}
+.tipr_point_bottom:before 
+{
+	border-width: 4px;
+	left: 50%;
+	margin-left: -4px;
+}

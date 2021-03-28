@@ -1,0 +1,137 @@
+.share-top-new {
+  height: 50px;
+  margin: 15px;
+}
+.share-top-new a {
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 3px;
+  background: #ccc;
+  float: left;
+  margin-right: 5px;
+  margin-top: 5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+  padding: 0;
+}
+.share-top-new a img {
+  width: 25px;
+  padding-top: 8px;
+  float: left;
+  padding-left: 8px;
+  margin-right: 10px;
+}
+.share-top-new a span {
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  width: 75px;
+  color: #fff;
+  display: block;
+  text-align: left;
+}
+.share-top-new a span b {
+	font-weight: normal;
+	color: rgba(255,255,255,0.7);
+}
+
+.share-top-new .count {
+  background: #fff;
+  border-radius: 0;
+  color: #7A7A7A;
+  padding-top: 0;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid #ccc;
+  width: auto;
+  width: 80px;
+  display: none;
+}
+.share-top-new .count strong {
+  text-align: center;
+  display: block;
+  font-size: 22px;
+  color: #494949;
+  line-height: 100%;
+}
+.share-top-new .fb {
+  background: #0064c2;
+}
+.share-top-new .tw {
+  background: #00b6f9;
+}
+.share-top-new .gplus {
+  background: #EC4C4C;
+}
+.share-top-new .linked {
+  background: #3E6EA7;
+}
+.share-top-new .pin {
+  background: #FF0000;
+}
+.share-top-new .whatsap {
+  background: #5CB100;
+}
+.share-top-new .line {
+  background: #62BB00;
+}
+.share-top-new .komentar {
+  background: #9F9F9F;
+  width: 135px;
+}
+.share-top-new .komentar span {
+  width: 80px;
+}
+
+.share_float .komentar {
+    width: 40px !important;
+}
+
+.share-bot-new {
+	border-top: 1px solid #eee;
+	padding-top: 10px;
+}
+.share_title {
+  display: none;
+}
+@media screen and (min-width: 1100px) {
+  .share-top-new .komentar:hover {
+	  width: 135px;
+	}
+	.share-top-new .count:hover {
+	  width: 80px;
+	}
+	.share-top-new a:hover {
+	  width: 120px;
+	}
+}
+
+@media screen and (max-width: 435px) {
+  .share-top-new {
+    margin: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    height: auto;
+    }
+  .share-top-new a span {
+    font-size: 13px;
+  }
+  .count {
+    display: none;
+  }
+  .share_title {
+    display: block;
+    font-size: 15px;
+    text-align: left;
+  }
+  .share-top-new .komentar {
+    padding: 0;
+  }
+}

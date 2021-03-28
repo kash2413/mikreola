@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'lora-regular';
+    src: url('../fonts/lora-regular.eot');
+    src: url('../fonts/lora-regular.eot#iefix') format('embedded-opentype'),
+         url('../fonts/lora-regular.woff') format('woff'),
+         url('../fonts/lora-regular.ttf') format('truetype'),
+         url('../fonts/lora-regular.svg#lora-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lora-regular';
+    src: url('../fonts/lora-italic.eot');
+    src: url('../fonts/lora-italic.eot#iefix') format('embedded-opentype'),
+         url('../fonts/lora-italic.woff') format('woff'),
+         url('../fonts/lora-regular.ttf') format('truetype'),
+         url('../fonts/lora-italic.svg#lora-italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'lora-bold';
+    src: url('../fonts/lora-bold.eot');
+    src: url('../fonts/lora-bold.eot#iefix') format('embedded-opentype'),
+         url('../fonts/lora-bold.woff') format('woff'),
+         url('../fonts/lora-bold.ttf') format('truetype'),
+         url('../fonts/lora-bold.svg#lora-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sourcesanspro-regular';
+    src: url('../fonts/sourcesanspro-regular.eot');
+    src: url('../fonts/sourcesanspro-regular.eot#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-regular.woff') format('woff'),
+         url('../fonts/sourcesanspro-regular.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-regular.svg#sourcesanspro-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sourcesanspro-regular';
+    src: url('../fonts/sourcesanspro-regular.eot');
+    src:url('../fonts/sourcesanspro-regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sourcesanspro-bold';
+    src: url('../fonts/sourcesanspro-bold.eot');
+    src: url('../fonts/sourcesanspro-bold.eot#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-bold.woff') format('woff'),
+         url('../fonts/sourcesanspro-bold.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-bold.svg#sourcesanspro-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'seravek-medium';
+    src: url('../fonts/seravek-medium.eot');
+    src: url('../fonts/seravek-medium.eot#iefix') format('embedded-opentype'),
+         url('../fonts/seravek-medium.woff') format('woff'),
+         url('../fonts/seravek-medium.ttf') format('truetype'),
+         url('../fonts/seravek-medium.svg#seravek-medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*fonticon*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot');
+  src:  url('../fonts/icomoon.eot#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

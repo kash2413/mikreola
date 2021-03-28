@@ -1,0 +1,12 @@
+/*--------------------------------------------------------------------------------*/
+/*EXTENDS*/
+/*--------------------------------------------------------------------------------*/
+.ratiobox.ratiobox--16-9 { padding-bottom: 56.25%; }
+
+.ratiobox.ratiobox--16-9.sisip_video_ds { overflow: hidden; height: 0; }
+
+.ratiobox.ratiobox--16-9.sisip_video_ds.pdb-counter { padding-bottom: calc(56.25% + 38px) !important; }
+
+@media only screen and (max-width: 480px) { .ratiobox.ratiobox--16-9.sisip_video_ds.pdb-counter { padding-bottom: calc(56.25% + 35px) !important; } }
+
+.ratiobox iframe { position: absolute; width: 100%; height: 100%; }
